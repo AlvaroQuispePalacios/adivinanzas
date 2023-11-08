@@ -9,6 +9,12 @@ const questions = [
         questio: "Quien fue el primer astronauta en aterrizar en la luna va a ser?",
         respostaCorrecta: "Neil Amstrong",
         respostaIncorrecta: "Louis Amstrong"
+    },
+
+    {
+        questio: "De que generacion es Blaziken",
+        respostesCorrectas: "Hoenn",
+        respostesIncorrectas: "Teselia"
     }
 ];
 
