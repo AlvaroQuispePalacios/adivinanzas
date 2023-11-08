@@ -13,8 +13,8 @@ const questions = [
 
     {
         questio: "De que generacion es Blaziken",
-        respostaCorrectas: "Hoenn",
-        respostaIncorrectas: "Teselia"
+        respostaCorrecta: "Hoenn",
+        respostaIncorrecta: "Teselia"
     }
 ];
 
