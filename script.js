@@ -13,8 +13,8 @@ const questions = [
 
     {
         questio: "De que generacion es Blaziken",
-        respostesCorrectas: "Hoenn",
-        respostesIncorrectas: "Teselia"
+        respostaCorrectas: "Hoenn",
+        respostaIncorrectas: "Teselia"
     }
 ];
 
@@ -32,7 +32,7 @@ const btnReiniciar = document.getElementById('btnReiniciar');
 //Mezcla las respuestas
 function barrejaRespostes(correcta, incorrecta){
     const respostes = [correcta, incorrecta];
-    respostes.sort(() => {Math.random() - 0.5});
+    respostes.sort(() => Math.random() - 0.5);
     return respostes;
 }
 
