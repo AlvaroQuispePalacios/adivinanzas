@@ -63,7 +63,7 @@ function mostraQuestio(){
 function comprovaResposta(respostaSeleccionada){
     const questioActual = questions[indexQuestioActual];
 
-    if(respostaSeleccionada === questioActual){
+    if(respostaSeleccionada === questioActual.respostaCorrecta){
         respostesCorrectas++;
     }else {
         respostesIncorrectas++;
